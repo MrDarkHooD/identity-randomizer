@@ -1,0 +1,1 @@
+Mac|Windows 7|Windows 10|Linux Mint|Linux Fedora|Gentoo|Debian 9|Arch
