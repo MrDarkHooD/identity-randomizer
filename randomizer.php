@@ -28,16 +28,16 @@ echo $firstname;
 
 echo $firstname . " " . $surname . "<br>";
 
-			$vokaalit = str_split("aeiouy");
-			$konsonantit = str_split("bcdfghjklmnpqrstvwxz");
+			$vocals = str_split("aeiouy");
+			$consonants = str_split("bcdfghjklmnpqrstvwxz");
 		function random_thing($type = "a", $upper = 0) {
-			$vokaalit = str_split("aeiouy");
-			$konsonantit = str_split("bcdfghjklmnpqrstvwxz");
-			$aakkoset = str_split("abcdefghijklmnopqrstuvwxyz");
+			$vocals = str_split("aeiouy");
+			$consonants = str_split("bcdfghjklmnpqrstvwxz");
+			$alphabets = str_split("abcdefghijklmnopqrstuvwxyz");
 
-					if($type == "a") $string = $aakkoset;
-					if($type == "v") $string = $vokaalit;
-					if($type == "k") $string = $konsonantit;
+					if($type == "a") $string = $alphabets;
+					if($type == "v") $string = $vocals;
+					if($type == "k") $string = $consonants;
 
 			$count = count($string) - 1;
 			$rand = rand(0, $count);	
@@ -46,6 +46,21 @@ echo $firstname . " " . $surname . "<br>";
 				return $return;
 
 		}
+
+$letter1 = random_thing("a", 1);
+$letter2 = random_thing("a");
+$letter3 = random_thing("a");
+$letter4 = random_thing("a");
+$letter5 = random_thing("a");
+
+if(in_array($letter3, $consonants)) { $letter4 = random_thing("v"); }
+if(in_array(strtolower($letter1), $consonants)) { $letter2 = random_thing("v"); }
+
+
+echo $letter1 . $letter2 . $letter3 . $letter4 . $letter5;
+
+?>
+
 
 $letter1 = random_thing("a", 1);
 $letter2 = random_thing("a");
