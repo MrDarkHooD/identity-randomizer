@@ -54,32 +54,3 @@ $letter5 = random_thing("a");
 
 ?>
 
-
-$letter1 = random_thing("a", 1);
-$letter2 = random_thing("a");
-$letter3 = random_thing("a");
-$letter4 = random_thing("a");
-$letter5 = random_thing("a");
-
-if(in_array($letter3, $consonants)) { $letter4 = random_thing("v"); }
-if(in_array(strtolower($letter1), $consonants)) { $letter2 = random_thing("v"); }
-
-
-echo $letter1 . $letter2 . $letter3 . $letter4 . $letter5;
-
-?>
-
-
-$letter1 = random_thing("a", 1);
-$letter2 = random_thing("a");
-$letter3 = random_thing("a");
-$letter4 = random_thing("a");
-$letter5 = random_thing("a");
-
-if(in_array($letter3, $konsonantit)) { $letter4 = random_thing("v"); }
-if(in_array(strtolower($letter1), $konsonantit)) { $letter2 = random_thing("v"); }
-
-
-echo $letter1 . $letter2 . $letter3 . $letter4 . $letter5;
-
-?>
