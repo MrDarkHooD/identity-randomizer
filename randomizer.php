@@ -20,7 +20,7 @@ echo $firstname;
 
 	$check = str_split($firstname);
 	
-	if(end($check) == "s") { echo "'es"; }else { echo "'s"; }
+	if(end($check) == "s") { echo "'"; }else { echo "'s"; }
 	
 	
 	echo " " . $machines_part[$rand];
