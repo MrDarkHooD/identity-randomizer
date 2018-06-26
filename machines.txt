@@ -1,1 +1,1 @@
-Mac|Windows 7|Windows 10|Linux Mint|Linux Fedora|Gentoo|Debian 9|Arch
+Mac|iMac|Mac mini|MacBook Air|MackBook Pro|MacBook||Macintosh|Windows 95|Windows 98|Windows Vista|Windows XP|Windows 7|Windows 8|Windows 8.1|Windows 10|Linux Mint|Linux Fedora|Gentoo|Debian 9|Arch|Ubuntu|Kubuntu|Xubuntu|Chrome OS|BasicLinux|Lubuntu|Salix OS|Tails OS
